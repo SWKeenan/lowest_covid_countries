@@ -1,0 +1,98 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contents {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.countryTitle {
+  text-align: center;
+  font-size: 28px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 700;
+}
+
+.backButton {
+  background-color: #000;
+  border: #fff 2px solid;
+  box-sizing: border-box;
+  display: inline;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.backButton img {
+  height: 20px;
+  width: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.twoContainers {
+  display: flex;
+}
+
+.leftContainer {
+  flex-direction: column;
+}
+
+.rightContainer {
+  align-items: center;
+}
+
+.leftContainer,
+.rightContainer {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 10px 5px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.countryCode {
+  text-align: center;
+}
+
+.newTotal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .twoContainers {
+    flex-direction: column;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    margin: 5px 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .newTotal {
+    flex-direction: column;
+    font-weight: 700;
+    text-align: center;
+  }
+}
