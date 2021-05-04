@@ -11,7 +11,7 @@ const ICON = icon({
 
 export default function Map({ countryMonth }) {
     return (
-        <MapContainer center={[countryMonth.Lat, countryMonth.Lon]} zoom={1} scrollWheelZoom={false} style={{height: 200, width: "100%"}}>
+        <MapContainer center={[countryMonth.Lat, countryMonth.Lon]} zoom={1} scrollWheelZoom={false} style={{height: 200, width: "99%", margin: "auto"}}>
             <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
