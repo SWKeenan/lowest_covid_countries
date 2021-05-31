@@ -52,6 +52,7 @@ export default function Slug({ country, countryMonth }) {
                     </div>
                 </div>
             </div>
+            <p className={styles.footer}>Website made by <a href="https://www.shanekeenan.dev" rel="follow" target="_blank" >Daddy Shane</a>.</p>
         </div>
     )
 }

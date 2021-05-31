@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 0px 20px;
-  height: 90vh;
+  height: 90%;
 }
 
 .countryItem {
@@ -95,6 +95,17 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer a {
+  font-weight: 700;
+  font-style: normal;
 }
 
 @media only screen and (max-width: 800px) {

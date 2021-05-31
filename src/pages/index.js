@@ -31,7 +31,7 @@ export default function Home({ data, countries }) {
           )
         })}
       </div>
-      
+      <p className={styles.footer}>Website made by <a href="https://www.shanekeenan.dev" rel="follow" target="_blank" >Daddy Shane</a>.</p>
     </div>
   )
 }
